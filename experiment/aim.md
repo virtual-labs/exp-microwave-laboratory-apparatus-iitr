@@ -1,2 +1,2 @@
 
-####  To make students familiar with frequently used microwave laboratory equipments.
+####  To make students familiar with frequently used microwave laboratory equipment.
