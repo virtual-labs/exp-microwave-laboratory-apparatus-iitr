@@ -1,0 +1,133 @@
+
+/home/runner/work/exp-microwave-laboratory-apparatus-iitr/exp-microwave-laboratory-apparatus-iitr/experiment/simulation/js/jquery-ui.min.js
+   5:4148   warning  'jQuery' is not defined                                                    no-undef
+   5:4315   warning  Empty block statement                                                      no-empty
+   5:5549   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   5:10500  warning  'jQuery' is not defined                                                    no-undef
+   5:13205  warning  'jQuery' is not defined                                                    no-undef
+   5:31628  warning  'jQuery' is not defined                                                    no-undef
+   6:5339   warning  'jQuery' is not defined                                                    no-undef
+   6:22476  warning  'jQuery' is not defined                                                    no-undef
+   6:26405  warning  'jQuery' is not defined                                                    no-undef
+   7:1892   warning  Unnecessary escape character: \-                                           no-useless-escape
+   7:18058  warning  'jQuery' is not defined                                                    no-undef
+   7:18832  warning  Unnecessary escape character: \-                                           no-useless-escape
+   7:19025  warning  Unnecessary escape character: \%                                           no-useless-escape
+   7:19049  warning  Unnecessary escape character: \%                                           no-useless-escape
+   7:19073  warning  Unnecessary escape character: \%                                           no-useless-escape
+   7:19488  warning  Unnecessary escape character: \%                                           no-useless-escape
+   7:19512  warning  Unnecessary escape character: \%                                           no-useless-escape
+   7:23868  warning  Empty block statement                                                      no-empty
+   7:23959  warning  Empty block statement                                                      no-empty
+   7:24586  warning  'jQuery' is not defined                                                    no-undef
+   7:25339  warning  'jQuery' is not defined                                                    no-undef
+   7:30894  warning  'jQuery' is not defined                                                    no-undef
+   8:7017   warning  'jQuery' is not defined                                                    no-undef
+   8:14001  warning  Unnecessary escape character: \-                                           no-useless-escape
+   8:14003  warning  Unnecessary escape character: \[                                           no-useless-escape
+   8:14018  warning  Unnecessary escape character: \^                                           no-useless-escape
+   8:14609  warning  'jQuery' is not defined                                                    no-undef
+   8:21616  warning  'jQuery' is not defined                                                    no-undef
+   8:25019  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9:1967   warning  Empty block statement                                                      no-empty
+   9:13255  warning  Empty block statement                                                      no-empty
+   9:13390  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9:21567  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9:21616  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9:23597  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9:23627  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9:25283  warning  'jQuery' is not defined                                                    no-undef
+  10:4201   warning  'jQuery' is not defined                                                    no-undef
+  10:5020   warning  'jQuery' is not defined                                                    no-undef
+  10:5941   warning  'jQuery' is not defined                                                    no-undef
+  10:6537   warning  'jQuery' is not defined                                                    no-undef
+  10:7212   warning  'jQuery' is not defined                                                    no-undef
+  10:8060   warning  'jQuery' is not defined                                                    no-undef
+  10:8253   warning  'jQuery' is not defined                                                    no-undef
+  10:8961   warning  'jQuery' is not defined                                                    no-undef
+  10:9418   warning  'jQuery' is not defined                                                    no-undef
+  10:9890   warning  'jQuery' is not defined                                                    no-undef
+  10:14109  warning  'jQuery' is not defined                                                    no-undef
+  10:14886  warning  'jQuery' is not defined                                                    no-undef
+  10:15524  warning  'jQuery' is not defined                                                    no-undef
+  10:16051  warning  'jQuery' is not defined                                                    no-undef
+  10:18687  warning  Unnecessary escape character: \-                                           no-useless-escape
+  10:18689  warning  Unnecessary escape character: \[                                           no-useless-escape
+  10:18704  warning  Unnecessary escape character: \^                                           no-useless-escape
+  10:25323  warning  'jQuery' is not defined                                                    no-undef
+  10:25940  warning  Unnecessary escape character: \+                                           no-useless-escape
+  10:25942  warning  Unnecessary escape character: \-                                           no-useless-escape
+  10:31460  warning  'jQuery' is not defined                                                    no-undef
+  11:1341   warning  'jQuery' is not defined                                                    no-undef
+  11:11407  warning  'jQuery' is not defined                                                    no-undef
+  11:16807  warning  'Globalize' is not defined                                                 no-undef
+  11:16964  warning  'Globalize' is not defined                                                 no-undef
+  11:18141  warning  'jQuery' is not defined                                                    no-undef
+  11:21806  warning  Unnecessary escape character: \/                                           no-useless-escape
+  11:21815  warning  Unnecessary escape character: \[                                           no-useless-escape
+  11:21819  warning  Unnecessary escape character: \^                                           no-useless-escape
+  11:24257  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  11:29596  warning  'jQuery' is not defined                                                    no-undef
+  12:2218   warning  'jQuery' is not defined                                                    no-undef
+
+/home/runner/work/exp-microwave-laboratory-apparatus-iitr/exp-microwave-laboratory-apparatus-iitr/experiment/simulation/js/jquery.min.js
+  3:446    warning  Unnecessary escape character: \/                                           no-useless-escape
+  3:4632   warning  'ActiveXObject' is not defined                                             no-undef
+  3:7137   warning  Empty block statement                                                      no-empty
+  3:16131  warning  Empty block statement                                                      no-empty
+  3:18273  warning  Empty block statement                                                      no-empty
+  3:18591  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:19009  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:19365  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:21454  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:27744  warning  Empty block statement                                                      no-empty
+  3:30473  warning  Empty block statement                                                      no-empty
+  4:4552   warning  Unnecessary escape character: \=                                           no-useless-escape
+  4:4869   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:5357   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:5372   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:5858   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:6094   warning  Empty block statement                                                      no-empty
+  4:8221   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:9588   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:9702   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:10078  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:10116  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:10556  warning  Empty block statement                                                      no-empty
+  4:10752  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:11066  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:11238  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:11875  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:13611  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:13849  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:13997  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14335  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  4:15016  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:17334  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:17427  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:17487  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:18709  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:19260  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:19374  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:20653  warning  Unnecessary escape character: \[                                           no-useless-escape
+  4:20655  warning  Unnecessary escape character: \.                                           no-useless-escape
+  4:27683  warning  Empty block statement                                                      no-empty
+  5:217    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:344    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:3131   warning  Empty block statement                                                      no-empty
+  5:8944   warning  Unnecessary escape character: \/                                           no-useless-escape
+  5:9249   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:11457  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:13339  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:14928  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:17106  warning  Empty block statement                                                      no-empty
+  5:17183  warning  Empty block statement                                                      no-empty
+  5:17815  warning  Empty block statement                                                      no-empty
+  5:19831  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:21404  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:28326  warning  'define' is not defined                                                    no-undef
+  5:28338  warning  'define' is not defined                                                    no-undef
+  5:28357  warning  'define' is not defined                                                    no-undef
+
+✖ 126 problems (0 errors, 126 warnings)
+

@@ -1,0 +1,154 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>
+<style>
+body 
+{
+  font-family: "Lato", sans-serif;
+  background-color: white;
+}
+#div1,#div2,#div3,#div4
+ {
+  float: left;
+  width: 100px;
+  height: 100px;
+
+  padding: 30px;
+  border: 2px solid #50c9c3;
+  
+    box-shadow: 5px 5px 25px grey;
+}
+
+#div5,#div6,#div7,#div8 
+{
+  float: left;
+  width: 140px;
+  height: 100px;
+  
+  padding: 30px;
+  border: 2px solid #50c9c3;
+
+  
+  box-shadow: 5px 5px 25px grey;
+}
+
+input[type=button]
+ {
+  background-color: white; 
+    color: black; 
+    
+    border: 2px solid #50c9c3;
+    margin-left: 20px;
+    padding: 5px;
+}
+input[type=button]:hover 
+{
+  background-color: #50c9c3;
+    color: white;
+}
+.position-absolute {
+    
+    position: absolute !important;
+    backdrop-filter: blur(6px);
+
+  }
+  .swal2-popup {
+    font-size: 1.4rem !important;
+    font-family: Georgia, serif;
+  }
+</style>
+
+<script>
+function allowDrop(ev)
+{
+  ev.preventDefault();
+}
+
+
+function drag(ev) 
+{
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev)
+{
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  if (ev.target.id == document.getElementById(data).getAttribute('data-div'))
+  { 
+    Swal.fire({
+        backdrop:false,
+       target: '#box',
+       width:'300px',
+       position:'center',
+        customClass: {
+          container: 'position-absolute',
+          popup:"swal2-popup"
+        },
+        title:"Correct",
+        icon:'success',
+        }); 
+
+     ev.target.appendChild(document.getElementById(data));
+
+  }
+  else
+  {
+    Swal.fire({
+        backdrop:false,
+       target: '#box',
+       width:'450px',
+       position:'center',
+        customClass: {
+          container: 'position-absolute',
+          popup:"swal2-popup"
+        },
+        title:"Oops..",
+        icon:'error',
+        text:'Please try again !!'
+        }); 
+ 
+  }
+}
+
+</script>
+</head>
+<body>
+<div style="position: relative;margin-left:10px;margin-top:25px; width: 1050px;height: 570px;">
+  <div style="position: relative;margin-left:40px; width: 150px;height: 150px;" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/directional.png" draggable="true" ondragstart="drag(event)" id="drag1" width="150" height="150" data-div="div6">
+</div>
+<div id="div2" style="margin-left: 40px;width: 150px;height: 150px; " ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/circulator(1).png" draggable="true" ondragstart="drag(event)" id="drag2" width="150" height="150"  data-div="div7">
+</div>
+  <div id="div3" style="margin-left: 40px;width: 150px;height: 150px; " ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/attenuator(2).png" draggable="true" ondragstart="drag(event)" id="drag3" width="150" height="150"  data-div="div8">
+</div>
+<div id="div4" style="margin-left: 40px;width: 150px;height: 150px; " ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/Isolator3.png" draggable="true" ondragstart="drag(event)" id="drag4" width="150" height="150"  data-div="div5">
+</div>
+
+ <p style="font-size: 15px;position: absolute;left:80px;top:240px" ><b>Isolator Symbol</b></p>
+ <p style="font-size: 15px;position: absolute;left:325px;top:240px" ><b>Directional Coupler</b></p>
+ <p style="font-size: 15px;position: absolute;left:595px;top:240px" ><b>Circulator Symbol</b></p>
+ <p style="font-size: 15px;position: absolute;left:820px;top:240px" ><b>It decreases the strength <br>of the input signal</b></p>
+
+<div id="div5" style="margin-left: 40px;width: 150px;height: 150px; margin-top: 75px;" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+<div id="div6" style="margin-left: 40px;width: 150px;height: 150px; margin-top: 75px;"ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+<div id="div7" style="margin-left: 40px;width: 150px;height: 150px; margin-top: 75px;" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div8" style="margin-left: 40px;width: 150px;height: 150px; margin-top: 75px; "ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+
+</div>
+
+        <div  style="position:absolute;left:600px;top:570px;">
+            <input style="height:50px; width:150px;font-weight: bold " id="n" type="button" onclick="window.location.href = 'story3.html';" value="Next &raquo">
+        </div>
+        <div  style="position:absolute;left:350px;top:570px;">
+            <input style="height:50px; width:150px;font-weight: bold " id="n" type="button" onclick="window.location.href = 'story1.html';" value="&laquo Previous">
+        </div>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>
+<style>
+body 
+{
+  font-family: "Lato", sans-serif;
+  background-color: white;
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9
+ {
+  float: left;
+  width: 30px;
+  height: 60px;
+  margin: 12px;
+  padding: 25px;
+  border: 2px solid #50c9c3;
+
+  
+  box-shadow: 5px 5px 25px grey;
+}
+
+#div10,#div11,#div12,#div13,#div14,#div15,#div16,#div17,#div18  
+{
+  float: left;
+  width: 30px;
+  height: 60px;
+  margin: 12px;
+  padding: 25px;
+  border: 2px solid #50c9c3;
+
+  
+  box-shadow: 5px 5px 25px grey;
+}
+
+input[type=submit]
+ {
+  background-color: white; 
+    color: black; 
+    
+    border: 2px solid #50c9c3;
+    margin-left: 20px;
+    padding: 5px;
+}
+input[type=submit]:hover 
+{
+  background-color: #50c9c3;
+    color: white;
+}
+.position-absolute {
+    
+    position: absolute !important;
+    backdrop-filter: blur(6px);
+
+  }
+  .swal2-popup {
+    font-size: 1.4rem !important;
+    font-family: Georgia, serif;
+  }
+  p{
+    font-size: 15px;position: absolute;
+  }
+</style>
+<script>
+function allowDrop(ev)
+{
+  ev.preventDefault();
+}
+
+
+function drag(ev) 
+{
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev)
+{
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  if (ev.target.id == document.getElementById(data).getAttribute('data-div'))
+  { 
+    Swal.fire({
+        backdrop:false,
+       target: '#box',
+       width:'300px',
+       position:'center',
+        customClass: {
+          container: 'position-absolute',
+          popup:"swal2-popup"
+        },
+        title:"Correct",
+        icon:'success',
+        }); 
+     ev.target.appendChild(document.getElementById(data));
+
+  }
+  else
+  {
+    Swal.fire({
+        backdrop:false,
+       target: '#box',
+       width:'350px',
+       position:'center',
+        customClass: {
+          container: 'position-absolute',
+          popup:"swal2-popup"
+        },
+        title:"Oops..",
+        icon:'error',
+        text:'Please try again !!'
+        });
+  }
+}
+
+</script>
+</head>
+<body>
+<div style="position: relative;width: 1080px;height: 550px;">
+  <div id="div1" style="position: relative;margin-left:5px;margin-top: 30px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/pin.png" draggable="true" ondragstart="drag(event)" id="drag1" width="110" height="90"  data-div="div12">
+</div>
+<div id="div2" style="margin-left:15px;width: 100px;height: 150px; margin-top: 30px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/eplane1.png" draggable="true" ondragstart="drag(event)" id="drag2" width="100" height="100" data-div="div14">
+</div>
+  <div id="div3" style="margin-left:15px;width: 100px;height: 150px;margin-top: 30px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/magic tee (1).png" draggable="true" ondragstart="drag(event)" id="drag3" width="100" height="100"  data-div="div13">
+</div>
+
+  <div id="div5" style="margin-left:15px;width: 100px;height: 150px;margin-top: 30px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/circulator4.png" draggable="true" ondragstart="drag(event)" id="drag5" width="80" height="100"  data-div="div15">
+</div>
+<div id="div6" style="margin-left:15px;width: 100px;height: 150px;margin-top: 30px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/hplane1.png" draggable="true" ondragstart="drag(event)" id="drag6" width="110" height="90" data-div="div10">
+</div>
+  <div id="div7" style="margin-left:15px;width: 100px;height: 150px;margin-top: 30px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/Horn Antenna (1).jpeg" draggable="true" ondragstart="drag(event)" id="drag7" width="100" height="100"  data-div="div11">
+</div>
+
+
+
+ <p style="left:15px;top:270px"><b>H-plane Tee Symbol</b></p>
+ <p style="left:192px;top:270px"><b>Transmit radio waves <br>from a waveguide <br>out into space</b></p>
+ <p style="left:370px;top:270px"><b>Modulates the signal</b></p>
+ <p style="left:545px;top:270px"><b>Can be used as a power <br>&nbsp; &nbsp;combiner or divider</b></p>
+ <p style="left:730px;top:270px"><b>E-plane Tee Symbol</b></p>
+ <p style="left:910px;top:270px"><b>Transports signals <br> from one port to another</b></p>
+ 
+
+<div id="div10" style="position: relative;margin-left:5px;margin-top: 90px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 290px;"></div>
+<div id="div11" style="position: relative;margin-left:15px;margin-top: 90px;width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 290px;"></div>
+<div id="div12" style="position: relative;margin-left:15px;margin-top: 90px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 290px;"></div>
+<div id="div13" style="position: relative;margin-left:15px;margin-top: 90px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 290px;"></div>
+<div id="div14" style="position: relative;margin-left:15px;margin-top: 90px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 290px;"></div>
+<div id="div15" style="position: relative;margin-left:15px;margin-top: 90px; width: 100px;height: 150px;" ondrop="drop(event)" ondragover="allowDrop(event)" style="margin-top: 290px;"></div>
+
+</div>
+        <div style="position:absolute;left:500px;top:600px;">
+            <input id="s" style="height:50px; width:100px;font-weight: bold; " type="submit" value="Submit" onclick="window.location.href ='images/FamilarizationPDF.pdf';">
+        </div>
+</div>
+
+</body>
+</html>

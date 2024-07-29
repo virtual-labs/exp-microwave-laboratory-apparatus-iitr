@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body 
+{
+  font-family: "Lato", sans-serif;
+  background-color: white;
+}
+
+/* Fixed sidenav, full height */
+.sidenav
+ {
+  height: 250px;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 100;
+  left: 100;
+  background-image: linear-gradient(#96deda, #50c9c3);
+  overflow-x: hidden;
+  padding-top: 10px;
+  box-shadow: 15px 15px 50px grey;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn 
+{
+ padding: 6px 2px 6px 2px;
+  text-decoration: none;
+  font-size: 15px;
+ color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 97%;
+  text-align: justify;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-btn 
+{
+ padding-left: 15px;
+}
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: white;
+}
+
+/* Add an active class to the active dropdown button */
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+.active 
+{
+  background-color: #50c9c3;
+  color: black;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container 
+{
+  display: none;
+  background-color:#50c9c3;
+  padding-left: 18px;
+  color: black;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+input[type=button]
+ {
+  background-color: white; 
+    color: black; 
+    
+    border: 2px solid #50c9c3;
+    margin-left: 20px;
+    padding: 5px;
+}
+input[type=button]:hover 
+{
+  background-color: #50c9c3;
+    color: white;
+}
+#a
+ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:white;
+}
+img
+ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+</style>
+</head>
+<body>
+<div  style="position:absolute;top:20px;width:1000px;height:600px;left:100px">
+<div class="sidenav" >
+  <a href="#about"><img id="a" src="images/hplane.png" height="100" width="130"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">H-Plane Tee</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/hplane1.png" height="75" width="100"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It is a two way in-phase power divider/combiner i.e it is additive in nature. When two input signals are fed to port 1 & 2, the output at port 3 is in phase and additive and when the input signal is fed to port 3, the signal is split in to two equal parts that are in-phase at port 1 & 2.</a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 250px;">
+  <a href="#about"><img src="images/eplane.png" height="100" width="130"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">E-Plane Tee</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/eplane1.png" height="75" width="100"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It is similar to a power divider. The outputs we get in this type of tee are 180° out of phase with each other, irrespective of from which port the input is fed. </a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 500px;">
+  <a href="#about"><img src="images/gunn.png" height="100" width="130"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Gunn Oscillator</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/gunn-symbol.png" height="70" width="120"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It is a low-cost, stable source of continuous-wave microwave signals essential for telecommunications, radar systems, and scientific applications.</a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 750px;">
+  <a href="#about"><img src="images/power_meter.jpg" height="100" width="130"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Power Meter</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/Power-symbol.png" height="70" width="120"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It is an instrument which measures the electrical power at microwave frequencies typically in the range 100 MHz to 40 GHz.</a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-top:290px;margin-left:80px">
+  <a href="#about"><img src="images/frequency.png" height="100" width="70"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Frequency Meter</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/frequency1.png" height="75" width="70"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It displays the frequency of a periodic electrical signal.</a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-top:290px; margin-left: 380px;" >
+  <a href="#about"><img src="images/pin.png" height="100" width="130"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Pin Modulator</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/pin1.png" height="75" width="120"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It accepts a low frequency (base band) signal that modulates the output of e.g. a generator, typically in amplitude, frequency or phase. Its use is that this is the signal you are actually interested in. The high frequency signal is just a carrier: without modulation it is useless. </a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-top:290px; margin-left: 680px;" >
+  <a href="#about"><img src="images/VSMR_meter.png" height="100" width="130"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">VSWR Meter</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/VSWR-symbol.png" height="75" width="120"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It is used to determine the amount of radio frequency that is being reflected back to the transmitter compared to the amount that is being sent out during transmission.</a>
+  </div>
+</div>
+
+
+		<div align="center" style="position:absolute;left:550px;top:600px;">
+            <input id="n"  style="height:50px; width:150px;font-weight: bold "type="button" onclick="window.location.href = 'story4.html';" value="Next &raquo" >
+        </div>
+        <div style="position:absolute;left:250px;top:600px;">
+            <input id="n"   style="height:50px; width:150px;font-weight: bold " type="button" onclick="window.location.href = 'story2.html';" value="&laquo Previous" >
+        </div>
+</div>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</body>
+</html> 

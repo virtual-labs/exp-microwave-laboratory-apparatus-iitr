@@ -1,0 +1,6 @@
+[{"question":"What ferrite device can be used instead of duplexer of isolate microwave transmitter and receiver when both are connected to the same antenna?","answers":{"a":"Isolator","b":"Magnetron","c":"Simplex","d":"Circulator"},"correctAnswer":"d"},
+{"question":"Which of the following permits a microwave signal to travel in one direction with virtually no loss, but severely attenuates any signal attempting to travel in the reverse direction?","answers":{"a":"Isolator","b":"Wave trap","c":"Tunnel diode","d":"Circulator"},"correctAnswer":"a"},
+{"question":"A PIN diode consists of ______number of semiconductor layers.","answers":{"a":"Three","b":"Four","c":"One","d":"Two"},"correctAnswer":"a"},
+{"question":"In Microwave we consider the elements as","answers":{"a":"Lumped circuit elements","b":"Distributed circuit elements","c":"Both are correct","d":"None of these"},"correctAnswer":"b"},
+{"question":"A circulator device can also used as an isolator with a few modifications.","answers":{"a":"True","b":"False"},"correctAnswer":"a"}]
+

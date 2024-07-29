@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body
+ {
+  font-family: "Lato", sans-serif;
+  background-color: white;
+}
+
+/* Fixed sidenav, full height */
+.sidenav 
+{
+  
+  height: 250px;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 100;
+  left: 100;
+  background-image: linear-gradient(#96deda, #50c9c3);
+  overflow-x: hidden;
+  padding-top: 10px;
+  box-shadow: 15px 15px 50px  grey;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn 
+{
+  padding: 6px 2px 6px 2px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 96%;
+  text-align: justify;
+  cursor: pointer;
+  outline: none;
+  
+}
+.dropdown-btn 
+{
+ padding-left: 15px;
+}
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover
+ {
+  color: white;
+}
+
+/* Add an active class to the active dropdown button */
+.active 
+{
+  background-color: #50c9c3;
+  color: black;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container 
+{
+  display: none;
+  background-color:#50c9c3;
+  padding-left: 18px;
+  color: black;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down
+ {
+  float: right;
+  padding-right: 8px;
+}
+
+
+input[type=button]
+ {
+  background-color: white; 
+    color: black; 
+    
+    border: 2px solid #50c9c3;
+    margin-left: 20px;
+    padding: 5px;
+}
+input[type=button]:hover
+{
+ 
+    background-color: #50c9c3;
+    color: white;
+  
+}
+#a
+ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  
+}
+img
+ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+</style>
+</head>
+
+<body>
+<div style="position:absolute;top:30px;width:700px;height:600px;left:140px;background: white;">
+<div class="sidenav">
+  <a href="#about"><img id="a" src="images/isolator1.jpeg" height="100" width="130" ></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Circulator</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/circulator(1).png" height="75" width="90"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">A circulator is a device that transports radio frequency or microwave signals from one port to another.<br> They typically have three ports.<br> Circulators can be made to circulate clockwise or counterclockwise. </a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 300px;">
+  <a href="#about"><img id="a" src="images/isolator.png" height="100" width="140"></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Isolator</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/Isolator(1).jpeg" height="75" width="100"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"> It transmits microwave or radio frequency power in one direction only.<br> It is used to shield equipment on its input side, from the effects of conditions on its output side; for example, to prevent a microwave source being detuned by a mismatched load. </a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 600px;">
+  <a href="#about"><img id="a" src="images/attenuator(2).png" height="100" width="130" ></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Attenuator</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/attenuator1.jpeg" height="95" width="80"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">It decreases the strength of the input signal either continuously or step by step without appreciable signal distortion while substantially maintaining constant impedance match.</a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-top:290px;" >
+  <a href="#about"><img id="a" src="images/magic tee (1).png" height="100" width="130" ></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Magic Tee</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/magic tee (2).png" height="75" width="170"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">A magic-tee, or hybrid tee, is a 4-port waveguide structure that behaves as an electric field and magnetic field 3dB coupler, and is in fact, a combination of E-plane and H-plane tees.<br> The magic-tee can be used as a power combiner or divider, depending on the needs of the application </a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 300px;margin-top:290px;">
+  <a href="#about"><img id="a" src="images/directional.png" height="100" width="130" ></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Directional Coupler</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/directional(1).jpeg" height="75" width="100"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">The basic function of a directional coupler is to operate on an input so that two output signals are available. However, when the input is applied to the opposite port of an internally terminated coupler, only one output signal is produced </a>
+  </div>
+</div>
+
+<div class="sidenav" style="margin-left: 600px;margin-top:290px;">
+  <a href="#about"><img id="a" src="images/Horn Antenna (1).jpeg" height="100" width="130" ></a>
+  <button class="dropdown-btn">Name of equipment
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Horn Antenna</a>
+  </div>
+  <button class="dropdown-btn">Symbol
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"><img src="images/Horn Antenna (2).jpeg" height="70" width="100"></a>
+  </div>
+ <button class="dropdown-btn">Function
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">A horn antenna is used to transmit radio waves from a waveguide (a metal pipe used to carry radio waves) out into space, or collect radio waves into a waveguide for reception</a>
+  </div>
+</div>
+
+
+        <div style="position:absolute;left:350px;top:600px;">
+            <input id="n" style="height:40px; width:100px;font-weight: bold; " type="button" onclick="window.location.href = 'story2.html';" value="Next &raquo" >
+        </div>
+</div>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</body>
+</html> 
