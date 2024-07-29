@@ -53,7 +53,7 @@
 
 
 5.  **Horn Antenna:**  
-    A horn antenna or microwave horn is an antenna that consists of a flaring metal waveguide shaped like a horn to direct radio waves in a beam. Horns are widely used as antennas at UHF and microwave frequencies, above 300 MHz. They are used as feed antennas (called feed horns) for larger antenna structures such as parabolic antennas, as standard calibration antennas to measure the gain of other antennas, and as directive antennas for such devices as radar guns, automatic door openers, and microwave radiometers. Their advantages are moderate directivity, low standing wave ratio (SWR), broad bandwidth, and simple construction and adjustment.  
+    A horn antenna or microwave horn is an antenna that consists of a flaring metal waveguide shaped like a horn to direct radio waves in a beam. Horns are widely used as antennas at UHF and microwave frequencies, above 300 MHz. They are used as feed antennas (called feed horns) for larger antenna structures such as parabolic antennas, as standard calibration antennas to measure the gain of other antennas, and as directive antennas for such devices as radar guns, automatic door openers, and microwave radiometers. Their advantages are moderate directivity , low standing wave ratio (SWR), broad bandwidth, and simple construction and adjustment.  
   
     <center>
  
@@ -113,4 +113,38 @@
 
     **Fig. 10 Pin Modulator**</center> 
 
+
+11. **Gunn Diode Oscillator:**  
+    A Gunn Diode Oscillator (also known as Gunn oscillators or transferred electron device oscillators) is an inexpensive source of microwave power and comprises a Gunn diode or Transferred Electron Device (TED) as its major component. A diode is a semiconductor-based component that allows current to flow in only one direction. It has two terminals: anode and cathode. It acts as an electronic switch, exhibiting very low resistance in forward bias and very high resistance in reverse bias. Diodes are commonly used for rectification and signal switching purposes. It performs a similar function to Reflex Klystron Oscillators. In Gunn oscillators, the Gunn diode is placed in a resonant cavity.
+
+    <center>
+
+    ![Gunn Oscillator](images/gunn.png)
+
+    **Fig. 11 Gunn Oscillator**</center> 
+
+
+
+12. **Power Meter:**  
+    It is used to measure the power of electromagnetic signals, particularly in the microwave frequency range (typically from 100 MHz to 40 GHz). 
+    
+    Typically, a microwave power meter consists of a measuring head containing the power sensing element, connected via a cable to the meter itself, which displays the power reading. The head may also be referred to as a power sensor or mount. Different power sensors can be used for varying frequencies or power levels. Historically, in most power sensor and meter combinations, the sensor converted microwave power into an analog voltage, which the meter then read and displayed as a power reading.
+
+    Modern power sensor heads often include electronics to produce a digital output and can connect via USB to a PC, which functions as the power meter.
+
+
+     <center>
+
+    ![Power Meter](images/power_meter.jpg)
+
+    **Fig. 12 Power Meter**</center> 
+
+13. **VSMR Meter:**  
+    A VSWR meter basically consists of a high gain, high Q low noise voltage amplifier normally tuned at a fixed frequency at which the microwave signal is modulated. The VSWR meter uses the detector signal out of the microwave detector as its input, amplifies the same and provides the output on the calibrated volt meter. The meter itself can be calibrated in terms of VSWR.
+
+     <center>
+
+    ![VSMR Meter](images/VSMR_meter.png)
+
+    **Fig. 13 VSMR Meter**</center> 
 </div>
