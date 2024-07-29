@@ -1,1 +1,1 @@
-## Familiarization with the Microwave Laboratory Apparatus.
+## Familiarization with the Microwave Laboratory Equipment.
