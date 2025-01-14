@@ -134,8 +134,7 @@
 
 
      <center>
-    <img src="images/power_meter.jpg">    
-    ![Power Meter](images/power_meter.jpg)    
+     ![Power Meter](images/gunn.png)  
 
     **Fig. 12 Power Meter**</center> 
 
