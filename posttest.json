@@ -1,0 +1,7 @@
+[{"question":"Which of the following is the ferrite device that buffers a microwave source from the effects of a varying load, and thereby prevents the formation of standing waves?","answers":{"a":"Circulator","b":"Duplexer","c":"Isolator","d":"Diplexer"},"correctAnswer":"c"},
+{"question":"Low-power Gunn diodes are replacing:","answers":{"a":"Reflex klystrons","b":"TWTs","c":"Magnetrons","d":"Varactor diodes"},"correctAnswer":"a"},
+{"question":"The most widely used microwave antenna:","answers":{"a":"Half-wave dipole","b":"Parabolic","c":"Hyperbolic","d":"Horn"},"correctAnswer":"d"},
+{"question":"Directivity of a directional coupler signifies the direction of power flow in the coupler.","answers":{"a":"True","b":"False"},"correctAnswer":"b"},
+{"question":"In coupled line directional couplers, power from one line to another is transmitted through a microstrip line running between them.","answers":{"a":"True","b":"False"},"correctAnswer":"b"}]
+
+
