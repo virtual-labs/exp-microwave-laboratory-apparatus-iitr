@@ -132,13 +132,15 @@
 
     Modern power sensor heads often include electronics to produce a digital output and can connect via USB to a PC, which functions as the power meter.
 
-
      <center>
-     ![Power Meter](images/gunn.png)  
+         
+     ![Power Meter](images/power_meter.jpg)  
 
-    **Fig. 12 Power Meter**</center> 
+    **Fig. 12 Power Meter**
+    
+    </center> 
 
-13. **VSMR Meter:**  
+14. **VSMR Meter:**  
     A VSWR meter basically consists of a high gain, high Q low noise voltage amplifier normally tuned at a fixed frequency at which the microwave signal is modulated. The VSWR meter uses the detector signal out of the microwave detector as its input, amplifies the same and provides the output on the calibrated volt meter. The meter itself can be calibrated in terms of VSWR.
 
      <center>
