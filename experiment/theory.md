@@ -135,7 +135,7 @@
 
      <center>
 
-    ![Power Meter](images/power_meter.jpg)
+    ![Power Meter](images/power_meter.jpg)    
 
     **Fig. 12 Power Meter**</center> 
 
